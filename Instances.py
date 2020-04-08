@@ -1,4 +1,4 @@
-
+py
 import boto3
 ecc = boto3.client('ec2')
 ins = ecc.describe_instances()
@@ -9,6 +9,9 @@ for x in ins3:
     if 'i-' in x:
         print(x)
         
-ecc.stop_instances(InstanceIds=['i-0481fcd7d09352c1a'])
+       
+        
+        
+ecc.stop_instances(InstanceIds=[])
 
 
