@@ -12,6 +12,8 @@ for x in ins3:
        
         
         
+        
+        
 ecc.start_instances(InstanceIds=[])
 #In the brackets above, paste an Instance ID (use quote marks)
 
