@@ -8,10 +8,16 @@ ins3 = ins2.split()
 for x in ins3:
     if 'i-' in x:
         print(x)
-        
-        
-        
-ecc.start_instances(InstanceIds=[])
-#In the brackets above, paste an Instance ID (use quote marks)
+
+
+
+
+
+
+
+ecc.stop_instances(InstanceIds=['i-0481fcd7d09352c1a'])
+
+
+
 
 
