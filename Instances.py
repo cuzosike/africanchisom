@@ -9,9 +9,6 @@ for x in ins3:
     if 'i-' in x:
         print(x)
         
-       
-        
-        
         
         
 ecc.start_instances(InstanceIds=[])
